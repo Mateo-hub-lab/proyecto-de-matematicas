@@ -1,18 +1,19 @@
 # Encuesta de ahorro para estudiantes de secundaria
 
-Sitio estático en español para recopilar respuestas anónimas sobre ahorro, hábitos y gastos. Incluye resumen estadístico, gráficos, tabla de frecuencias y una proyección lineal.
+Sitio estático en español sobre hábitos de ahorro y gastos. Incluye una encuesta anónima, resumen estadístico, gráficos, tabla de frecuencias y proyección lineal.
 
-## Uso
+## Sitio publicado
 
-Abre `index.html` en un navegador. No necesita instalar programas ni cargar bibliotecas externas.
+https://mateo-hub-lab.github.io/proyecto-de-matematicas/
 
-## Publicar con GitHub Pages
+## Archivos del sitio
 
-1. Crea un repositorio llamado `encuesta-ahorro-secundaria` en GitHub.
-2. Sube `index.html` a la raíz del repositorio.
-3. En **Settings > Pages**, elige **Deploy from a branch**, selecciona `main` y la carpeta `/(root)`, y guarda.
-4. GitHub mostrará el enlace público de la página cuando termine la publicación.
+`index.html` debe permanecer en la raíz del repositorio: GitHub Pages lo usa como página de inicio. El sitio no requiere instalación ni bibliotecas externas.
 
-## Almacenamiento de respuestas
+## Publicación
 
-El sitio no envía respuestas a un servidor. Las guarda en el almacenamiento local del navegador que se esté usando. Para reunir respuestas desde varios dispositivos, descarga el CSV de cada uno y combina las filas; para recolección centralizada haría falta conectar un formulario o una base de datos.
+El repositorio `Mateo-hub-lab/proyecto-de-matematicas` se publica desde la rama `main`, carpeta `/(root)`. Para revisar esta opción, abre **Settings > Pages**.
+
+## Respuestas
+
+La página no envía respuestas a un servidor. Las guarda en el almacenamiento local del navegador actual. Para reunir respuestas desde varios dispositivos, descarga el CSV de cada uno y combina sus filas; para recolección centralizada haría falta conectar un formulario o una base de datos.
